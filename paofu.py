@@ -86,7 +86,7 @@ class Paofu():
 
 if __name__ == "__main__":
     paofu = Paofu()
-    email = "bestyyhb@gmail.com"
-    password = "paofuyun-71"
+    email = "xxx@xxx.com"
+    password = "xxx"
     print(paofu.login(email,password))
     paofu.split(paofu.checkin(paofu.login(email = email,password = password)))
