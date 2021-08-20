@@ -2,6 +2,7 @@ import pymysql
 
 
 class MySQL():
+
     __init__(self):
     def db(self,check_data):
         sql = "INSERT INTO SIGN.paofu_checkin (now(),{})".format(check_data)
