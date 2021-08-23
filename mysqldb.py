@@ -3,10 +3,12 @@ import pymysql
 
 class MySQL():
 
-    __init__(self):
+    def __init__(self):
     def db(self,check_data):
         sql = "INSERT INTO SIGN.paofu_checkin (now(),{})".format(check_data)
         #执行SQL语句
+    def record(self):
+        take.record
 
 if __name__=="__main__":
     test=MySQL()
